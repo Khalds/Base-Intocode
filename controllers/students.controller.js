@@ -9,6 +9,7 @@ module.exports.studentController = {
         group: req.body.group,
         payment: req.body.payment,
         status: req.body.status,
+        offer: req.body.offer
       });
       res.json("Student has been added");
     } catch (err) {
